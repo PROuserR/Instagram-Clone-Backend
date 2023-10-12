@@ -4,13 +4,22 @@ This is an API for this [project](https://github.com/PROuserR/Instagram-Clone-Fr
 
 
 # Installation
-Just clone the repo then install the requirements
-
+Clone the repo:
 ```sh
 git clone https://github.com/PROuserR/Instagram-Clone-Backend
 ```
 
+Create a new virtual environment:
+```sh
+python -m venv .venv
+```
 
+Activate the virtual environment:
+```sh
+. .venv/Scripts/activate
+```
+
+Install the requirements
 ```sh
 pip install -r requirements.txt
 ```
